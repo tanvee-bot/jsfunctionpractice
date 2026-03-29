@@ -42,6 +42,9 @@ console.log(result2)
 
 
 
+
+
+
 function practiceofunction ( ...number){
 let reault = 0
 for (let i = 0; i < number.length; i++) {
@@ -54,3 +57,16 @@ return reault
 let total = practiceofunction(33 ,44,67,66,666)
 
 console.log(total)
+
+
+
+function greet (name ,cb){
+    console.log("hello" + name)
+    cb()
+}
+
+function example (){
+    console.log("goodbuy")
+}
+
+greet(" TANVEER " , example)
