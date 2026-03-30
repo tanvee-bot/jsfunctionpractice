@@ -70,3 +70,12 @@ function example (){
 }
 
 greet(" TANVEER " , example)
+
+
+
+let allDetail = ["tanveer" ,"hameer","zameer"]
+// allDetail [1]= "zamin"
+allDetail.push("arslan")
+allDetail.push("haris")
+allDetail.reverse()
+console.log(allDetail)
